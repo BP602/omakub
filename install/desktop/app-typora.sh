@@ -1,7 +1,9 @@
-wget -qO - https://typora.io/linux/public-key.asc | sudo tee /etc/apt/trusted.gpg.d/typora.asc
-sudo add-apt-repository -y 'deb https://typora.io/linux ./'
-sudo apt update -y
-sudo apt install -y typora
+sudo dnf install git rpmdevtools libXScrnSaver
+cd /tmp
+git clone https://github.com/RPM-Outpost/typora.git
+cd typora
+./create-package.sh x64
+sudo dnf install  RPMs/x86_64/typora-*.rpm
 
 # Add iA Typora theme
 mkdir -p ~/.config/Typora/themes
