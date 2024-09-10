@@ -1,1 +1,1 @@
-sudo dnf remove -y flameshot
+sudo dnf remove flameshot

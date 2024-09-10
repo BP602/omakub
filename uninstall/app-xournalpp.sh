@@ -1,1 +1,1 @@
-sudo dnf remove -y xournalpp
+sudo dnf remove xournalpp

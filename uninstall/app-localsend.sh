@@ -1,1 +1,1 @@
-sudo dnf remove -y localsend
+sudo dnf remove localsend

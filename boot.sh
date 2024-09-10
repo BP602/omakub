@@ -13,7 +13,7 @@ echo "=> Omakub is for fresh Fedora 40 installations only!"
 echo -e "\nBegin installation (or abort with ctrl+c)..."
 
 sudo dnf update >/dev/null
-sudo dnf install -y git >/dev/null
+sudo dnf install git >/dev/null
 
 echo "Cloning Omakub..."
 rm -rf ~/.local/share/omakub

@@ -1,1 +1,1 @@
-sudo dnf remove -y fastfetch
+sudo dnf remove fastfetch

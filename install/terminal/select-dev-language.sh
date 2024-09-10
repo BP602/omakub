@@ -32,7 +32,7 @@ if [[ -n "$languages" ]]; then
 			mise x elixir -- mix local.hex --force
 			;;
 		Rust)
-			bash -c "$(curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs)" -- -y
+			bash -c "$(curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs)" --
 			;;
 		Java)
 			mise use --global java@latest

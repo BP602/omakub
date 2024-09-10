@@ -1,4 +1,4 @@
-sudo dnf install -y ulauncher
+sudo dnf install ulauncher
 
 # Start ulauncher to have it populate config before we overwrite
 mkdir -p ~/.config/autostart/

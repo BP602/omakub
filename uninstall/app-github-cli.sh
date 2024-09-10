@@ -1,1 +1,1 @@
-sudo dnf remove -y gh
+sudo dnf remove gh

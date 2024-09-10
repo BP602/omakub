@@ -1,1 +1,1 @@
-sudo dnf install -y xournalpp
+sudo dnf install xournalpp

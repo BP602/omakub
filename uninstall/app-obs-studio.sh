@@ -1,1 +1,1 @@
-sudo dnf remove -y obs-studio
+sudo dnf remove obs-studio

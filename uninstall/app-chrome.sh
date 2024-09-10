@@ -1,1 +1,1 @@
-sudo dnf remove -y google-chrome-stable
+sudo dnf remove google-chrome-stable

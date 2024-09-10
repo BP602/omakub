@@ -1,1 +1,1 @@
-sudo dnf remove -y zoom
+sudo dnf remove zoom

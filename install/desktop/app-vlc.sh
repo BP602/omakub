@@ -1,1 +1,1 @@
-sudo dnf install -y vlc
+sudo dnf install vlc

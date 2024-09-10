@@ -1,1 +1,1 @@
-sudo dnf remove -y vlc
+sudo dnf remove vlc
