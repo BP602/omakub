@@ -6,3 +6,6 @@ gsettings set org.gnome.desktop.interface monospace-font-name 'CaskaydiaMono Ner
 
 # Reveal week numbers in the Gnome calendar
 gsettings set org.gnome.desktop.calendar show-weekdate true
+
+# Set names for the workspaces
+gsettings set org.gnome.desktop.wm.preferences workspace-names  ["Web", "Code", "Comms", "Music", "Writing", "Misc"]
